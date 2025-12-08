@@ -4,8 +4,8 @@ import { BoxIcon, HomeIcon, MessageCircleMore } from "lucide-react";
 export const DATA = {
   name: "Deepak Joshi",
   initials: "DJ",
-  url: "https://github.com/JoshiDeepak08",
-  github: "https://github.com/JoshiDeepak08",
+  url: "https://github.com/Deepak-J0shi",
+  github: "https://github.com/Deepak-J0shi",
   location: "Champawat, Uttarakhand, IN",
   locationLink: "z",
   description:
@@ -65,7 +65,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/JoshiDeepak08",
+        url: "https://github.com/Deepak-J0shi",
         icon: Icons.github,
 
         navbar: true,
@@ -198,11 +198,80 @@ export const DATA = {
     },
     {
       type: "Github",
-      href: "https://github.com/JoshiDeepak08/Product-Discovery-Assistant",
+      href: "https://github.com/Deepak-J0shi/Product-Discovery-Assistant",
       icon: <Icons.github className="size-3" />,
     },
   ],
   image: "/product_assistant.png", // optional placeholder
+  video: "",
+},
+
+     {
+  title: "AI-Powered Rural Governance Assistant",
+  href: "https://youtu.be/SvaaQusU9nU?si=S9WfEV2PBO07HTdO",
+  dates: "",
+  active: true,
+  description:
+    "A bilingual (Hindi + English) AI assistant for rural governance enabling scheme lookup, Panchayat-wise data retrieval, and intelligent recommendations. Features voice input, chat history, multi-message memory, dynamic UI, and high-accuracy semantic search over government datasets using Groq LLaMA + Qdrant.",
+  technologies: [
+    "FastAPI",
+    "React",
+    "TailwindCSS",
+    "Groq LLaMA",
+    "Qdrant",
+    "Sentence-Transformers",
+    "LangChain",
+    "NLP",
+    "SQL",
+    "Google Translate API"
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://youtu.be/SvaaQusU9nU?si=S9WfEV2PBO07HTdO",
+      icon: <Icons.globe className="size-3" />,
+    },
+    {
+      type: "Github",
+      href: "https://github.com/Deepak-J0shi/Panchayat-Sahayika",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: "/panchayat_sahayika.png", // optional placeholder, can be empty
+  video: "",
+},
+
+        {
+  title: "SEO Internal Link Suggestion Tool",
+  href: "https://huggingface.co/spaces/joshi-deepak08/Seo-internal-linker",
+  dates: "",
+  active: true,
+  description:
+    "An automated SEO interlinking system with full-domain crawling, readability-based extraction, TF-IDF + SBERT hybrid similarity scoring, and intelligent anchor text generation. Includes a Streamlit dashboard with advanced controls for real-time, explainable anchor→target recommendations and CSV export.",
+  technologies: [
+    "Streamlit",
+    "Python",
+    "NLP",
+    "SBERT",
+    "TF-IDF",
+    "BeautifulSoup",
+    "Web Crawling",
+    "Requests",
+    "Pandas"
+  ],
+  links: [
+     {
+      type: "Website",
+      href: "https://huggingface.co/spaces/joshi-deepak08/Seo-internal-linker",
+      icon: <Icons.globe className="size-3" />,
+    },
+    {
+      type: "Github",
+      href: "https://github.com/Deepak-J0shi/SEO-Interlinking-Tool",
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: "/seo_interlinking.png", // optional placeholder, can be empty
   video: "",
 },
     
@@ -229,7 +298,7 @@ export const DATA = {
     },
     {
       type: "Github",
-      href: "https://github.com/JoshiDeepak08/Basic-Machine-learning-projects/tree/main/SAHAYAK%3A%20An%20AI%20Assistant",
+      href: "https://github.com/Deepak-J0shi/Internship-Extraction-Chatbot",
       icon: <Icons.github className="size-3" />,
     },
   ],
@@ -261,7 +330,7 @@ export const DATA = {
     },
     {
       type: "Github",
-      href: "https://github.com/JoshiDeepak08/Multimodel_RAG_project", // no GitHub, leave empty
+      href: "https://github.com/Deepak-J0shi/Multimodel-RAG-Project", // no GitHub, leave empty
       icon: <Icons.github className="size-3" />,
     },
   ],
@@ -269,75 +338,7 @@ export const DATA = {
   video: "",
 },
 
-    {
-  title: "AI-Powered Rural Governance Assistant",
-  href: "https://youtu.be/SvaaQusU9nU?si=S9WfEV2PBO07HTdO",
-  dates: "",
-  active: true,
-  description:
-    "A bilingual (Hindi + English) AI assistant for rural governance enabling scheme lookup, Panchayat-wise data retrieval, and intelligent recommendations. Features voice input, chat history, multi-message memory, dynamic UI, and high-accuracy semantic search over government datasets using Groq LLaMA + Qdrant.",
-  technologies: [
-    "FastAPI",
-    "React",
-    "TailwindCSS",
-    "Groq LLaMA",
-    "Qdrant",
-    "Sentence-Transformers",
-    "LangChain",
-    "NLP",
-    "SQL",
-    "Google Translate API"
-  ],
-  links: [
-    {
-      type: "Website",
-      href: "https://youtu.be/SvaaQusU9nU?si=S9WfEV2PBO07HTdO",
-      icon: <Icons.globe className="size-3" />,
-    },
-    {
-      type: "Github",
-      href: "https://github.com/JoshiDeepak08/Panchayat-Sahayika",
-      icon: <Icons.github className="size-3" />,
-    },
-  ],
-  image: "/panchayat_sahayika.png", // optional placeholder, can be empty
-  video: "",
-},
-
-    {
-  title: "SEO Internal Link Suggestion Tool",
-  href: "https://huggingface.co/spaces/joshi-deepak08/Seo-internal-linker",
-  dates: "",
-  active: true,
-  description:
-    "An automated SEO interlinking system with full-domain crawling, readability-based extraction, TF-IDF + SBERT hybrid similarity scoring, and intelligent anchor text generation. Includes a Streamlit dashboard with advanced controls for real-time, explainable anchor→target recommendations and CSV export.",
-  technologies: [
-    "Streamlit",
-    "Python",
-    "NLP",
-    "SBERT",
-    "TF-IDF",
-    "BeautifulSoup",
-    "Web Crawling",
-    "Requests",
-    "Pandas"
-  ],
-  links: [
-     {
-      type: "Website",
-      href: "https://huggingface.co/spaces/joshi-deepak08/Seo-internal-linker",
-      icon: <Icons.globe className="size-3" />,
-    },
-    {
-      type: "Github",
-      href: "https://github.com/JoshiDeepak08/SEO-interlinking-tool",
-      icon: <Icons.github className="size-3" />,
-    },
-  ],
-  image: "/seo_interlinking.png", // optional placeholder, can be empty
-  video: "",
-},
-
+   
    
   ],
   upcomingProjects: [
