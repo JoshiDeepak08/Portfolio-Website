@@ -54,7 +54,7 @@ export const DATA = {
   { href: "/", icon: HomeIcon, label: "Home" },
 
   {
-    href: "https://drive.google.com/file/d/1Dnooik6tTwi44TPvtb_MtUxsFLmQQbEB/view?usp=drivesdk",
+    href: "https://drive.google.com/file/d/18rns2ID7A2eeqXndBV3LUZe86v4OoxTh/view?usp=sharing",
     icon: Icons.googleDrive,
     label: "Resume",
   },
