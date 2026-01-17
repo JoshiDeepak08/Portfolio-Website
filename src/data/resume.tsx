@@ -102,8 +102,22 @@ export const DATA = {
   },
 
   work: [
+
   {
-  company: "ARIES (Aryabhatta Research Institute of Observational Sciences)",
+  company: "VaishaliTech",
+  href: "https://vaishalitech.com", // replace with correct URL if different
+  badges: ["AI/ML Development Intern"],
+  location: "Remote, IN",
+  title: "AI/ML Development Intern",
+  logoUrl: "/vaishalitech_logo.png", // add logo in /public
+  start: "Nov 2025",
+  end: "Jan 2026",
+  description:
+    "Contributing to the R&D team to build production-ready AI features for client products. Developed a Flask-based multimodal RAG backend for document and media search, and worked on deep learning pipelines for tasks like face recognition and automated poster generation. Implemented data preprocessing, model integration, and REST APIs using Python, PyTorch, and FastAPI/Flask, and collaborated closely with designers and product leads to turn experimental ML prototypes into usable tools.",
+},
+
+  {
+  company: "Aryabhatta Research Institute of Observational Sciences",
   href: "https://www.aries.res.in/aries-0",
   badges: ["Data Science Intern"],
   location: "Nainital, Uttarakhand, IN",
@@ -115,18 +129,6 @@ export const DATA = {
     "Led the development of a complete geospatial analysis pipeline using ERA5 climate datasets and Landsat 8–9 satellite imagery to study long-term climate variability and urban heat island patterns around Nainital. Processed and cleaned multi-year NetCDF and GRIB data, applied statistical techniques such as Theil–Sen trend estimation and Mann–Kendall tests, and generated spatial maps for temperature, wind, and precipitation. Automated workflows using Python, xarray, rioxarray, and Google Earth Engine, improving research efficiency and data reproducibility. Delivered insights that support environmental monitoring and data-driven decision-making for Himalayan regions.",
 },
 
-{
-  company: "VaishaliTech",
-  href: "https://vaishalitech.com", // replace with correct URL if different
-  badges: ["AI/ML Development Intern"],
-  location: "Remote, IN",
-  title: "AI/ML Development Intern",
-  logoUrl: "/vaishalitech_logo.png", // add logo in /public
-  start: "Nov 2025",
-  end: "Present",
-  description:
-    "Contributing to the R&D team to build production-ready AI features for client products. Developed a Flask-based multimodal RAG backend for document and media search, and worked on deep learning pipelines for tasks like face recognition and automated poster generation. Implemented data preprocessing, model integration, and REST APIs using Python, PyTorch, and FastAPI/Flask, and collaborated closely with designers and product leads to turn experimental ML prototypes into usable tools.",
-},
 
 {
   company: "Quadra Security",
